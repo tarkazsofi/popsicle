@@ -50,23 +50,64 @@ main {
 }
 .tip {
   height: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.shine {
+  background-color: rgb(247, 139, 247);
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  transform: rotate(60deg);
 }
 .forehead {
   height: 25%;
 }
 .eyes {
   height: 10%;
+  display: flex;
+  justify-content: center;
+}
+.eye {
+  background-color: rgb(206, 8, 107);
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eyeball {
+  background-color: white;
+  height: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  transform: translateX(50%) translateY(-50%);
+}
+.eyes .space {
+  width: 35%;
 }
 .cheeks {
   height: 10%;
+  display: flex;
+  justify-content: center;
+}
+.cheek {
+  background-color: rgb(247, 139, 247);
+  border-radius: 5vmin;
+  width: 25%;
+  height: 100%;
+  transform: scale(0.75);
+}
+.cheeks .space {
+  width: 40%;
 }
 .mouthWrapper {
   height: 10%;
   display: flex;
   justify-content: center;
-}
-.chin {
-  height: 15%;
 }
 .mouth {
   background-color: rgb(206, 8, 107);
@@ -74,4 +115,7 @@ main {
   width: 30%;
   height: 100%;
   border-bottom: 0.5vmin solid rgb(247, 139, 247);
+}
+.chin {
+  height: 15%;
 }
