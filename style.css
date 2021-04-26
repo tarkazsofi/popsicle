@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: yellow;
 }
 main {
   height: 90vmin;
@@ -118,4 +119,33 @@ main {
 }
 .chin {
   height: 15%;
+}
+.speechBubbleWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.bubble {
+  background-color: white;
+  width: 75%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15vmin;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2vmin 10vmin 2vmin 0;
+  border-color: transparent white transparent transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: rotate(-30deg) translateX(-40%);
+  z-index: -1;
 }
