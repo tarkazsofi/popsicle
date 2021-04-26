@@ -68,3 +68,10 @@ main {
 .chin {
   height: 15%;
 }
+.mouth {
+  background-color: rgb(206, 8, 107);
+  border-radius: 1vmin 1vmin 5vmin 5vmin;
+  width: 30%;
+  height: 100%;
+  border-bottom: 0.5vmin solid rgb(247, 139, 247);
+}
